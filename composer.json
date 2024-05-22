@@ -17,17 +17,12 @@
     "php": ">=7.4.0",
     "yiisoft/yii2": "~2.0.45"
   },
-  "require-dev": {
-
-  },
   "autoload": {
     "psr-4": {
       "yii2-wechat\\": "src/"
     },
     "files": [
-      "src/Wechat.php.php",
+      "src/Wechat.php",
     ]
-  },
-  "config": {
   }
 }
