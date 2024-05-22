@@ -1,20 +1,8 @@
 {
   "name": "syships/yii2-wechat",
   "description": "The Wechat SDK for the Yii framework",
-  "keywords": [
-    "yii2",
-    "wechat",
-    "sdk"
-  ],
-  "authors": [
-    {
-      "name": "syships",
-      "email": "syships.cn@gmail.com"
-    }
-  ],
   "require": {
     "php": ">=7.4.0",
-    "yiisoft/yii2": "~2.0.45"
   },
   "autoload": {
     "psr-4": {
