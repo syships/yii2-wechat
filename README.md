@@ -1,5 +1,6 @@
+For personal projects and testing, it is strongly recommended that you do not use
 # yii2-wechat
-配置：
+config：
 
     'components' => [
         'wechat' => [
@@ -9,7 +10,7 @@
         ],
     ],
 
-获取access_token：
+access_token：
 
 Yii::$app->wechat->getAccessToken();
 
