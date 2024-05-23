@@ -10,5 +10,6 @@
     ],
 
 获取access_token：
+
 Yii::$app->wechat->getAccessToken();
 Yii::$app->wechat->getStableAccessToken();
