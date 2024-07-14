@@ -1,5 +1,7 @@
-This is a personal plugin for study.It is strongly recomended thant you not use it. This plugin is unstable.
-wechat plugin for yii2
+This is a personal plugin for study.
+It is strongly recomended thant you not use it. 
+This plugin is unstable.
+It is the wechat plugin for yii2
 ======================
 
 Installation
