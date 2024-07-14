@@ -25,6 +25,8 @@ to the require section of your `composer.json` file.
 Usage
 -----
 
+Before using the extension,you can add the _ide_helper.php under your application folder.
+
 Once the extension is installed, simply use it in your code by  :
 
 config：
