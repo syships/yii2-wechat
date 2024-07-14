@@ -1,5 +1,5 @@
 <?php
-namespace wechat;
+namespace syships\wechat;
 
 use yii\httpclient\Client;
 use yii\httpclient\Exception;
@@ -12,7 +12,7 @@ class WechatHttpclient
      * @return Response response instance.
      * @throws Exception
      */
-    public function send($url,$params=[],$method='GET',$headers=[]){
+    public static function send($url,$params=[],$method='GET',$headers=[]){
         $client = new Client([
 //            'transport' => 'yii\httpclient\CurlTransport', // only cURL supports the options we need
 //            'responseConfig' => [
