@@ -1,21 +1,25 @@
 {
     "name": "syships/yii2-wechat",
-    "description": "The wechat SDK for the Yii framework",
-    "type": "library",
-    "license": "MIT",
+    "description": "The wechat SDK for the Yii2 framework",
+    "type": "yii2-extension",
+    "keywords": ["yii2","wechat","extension"],
+    "license": "Apache-2.0",
     "authors": [
         {
             "name": "syships",
-            "email": "syships.cn@example.com"
+            "email": "syships.cn@gmail.com"
         }
     ],
     "minimum-stability": "dev",
     "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "yiisoft/yii2-httpclient": "^2.0",
         "php": ">=7.2"
     },
     "autoload": {
         "psr-4": {
-            "wechat\\": "src/"
+            "syships\\wechat\\": "src/"
         }
     }
 }
+
