@@ -42,7 +42,7 @@ config：
         ],
     ],
 
-access_token：
+You can use the code below to get access_token：
 
 Yii::$app->wechat->getAccessToken();
 
